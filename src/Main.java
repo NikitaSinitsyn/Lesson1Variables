@@ -57,12 +57,12 @@ public class Main {
         System.out.println(secondMethodDifferenceOfTheWeight);
 
         //Exercise 8
-        var totalWorkHours = 640;
-        var workHoursOfEmployees = 8;
-        var theNumberOfEmployees = totalWorkHours / workHoursOfEmployees;
+        var totalWorkingHours = 640;
+        var workingHoursOfEmployees = 8;
+        var theNumberOfEmployees = totalWorkingHours / workingHoursOfEmployees;
         System.out.println("Всего работников в компании – " + theNumberOfEmployees + " человек");
         var numberOfEmployeesAfterChanges = theNumberOfEmployees + 94;
-        var workHoursOfEmployeesAfterChanges = totalWorkHours / numberOfEmployeesAfterChanges;
-        System.out.println("Если в компании работает " + numberOfEmployeesAfterChanges + " человек, то всего " + workHoursOfEmployeesAfterChanges + " часов работы может быть поделено между сотрудниками.");
+        var workingHoursOfEmployeesAfterChanges = workingHoursOfEmployees * numberOfEmployeesAfterChanges;
+        System.out.println("Если в компании работает " + numberOfEmployeesAfterChanges + " человек, то всего " + workingHoursOfEmployeesAfterChanges + " часа работы может быть поделено между сотрудниками.");
     }
 }
